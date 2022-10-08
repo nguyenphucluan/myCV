@@ -1,0 +1,109 @@
+:root{
+    --white--: #ffffff;
+    --black--: #000000;
+    --blue--:#02fcda;
+}
+h2{
+    background-color: var(--blue--);
+    color: var(--white--);
+    text-transform: capitalize;
+    font-size: 32px;
+}
+h5{
+    font-size: 24px;
+}
+li{
+    font-size: 24px;
+    list-style-type:disc;
+}
+.box-design{
+    box-sizing: border-box;
+    box-shadow: 3px 3px 3px 3px var(--blue--);
+}
+.resume{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 999;
+}
+.mt{
+    margin-top: 10px;  
+}
+.container {
+    word-wrap: break-word;
+    width: 80%;
+    height: auto;
+    background: var(--blue--);
+    margin: 50px auto;
+    display: flex;
+    position: relative;
+}
+.center {
+    width:90%;
+    height: 90%;
+    background: var(--white--);
+    margin: auto;
+}
+.avatar{
+    position: relative;
+    box-sizing: border-box;
+    background-color: var(--white--);
+    top: 10px;
+    left: 10px;
+    box-shadow: 3px 3px 3px 3px var(--blue--);
+    
+}
+.img{
+    width: 65%;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid var(--blue--);
+    position: relative;
+    margin: auto 20%;
+}
+.summary{
+    position: relative;
+    top: 25px;
+}
+.education{
+    margin-top: 40px;
+}
+.experience h5 .school{
+    color: #02fcda !important;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)  {
+    .container {
+        width: 100%;       
+    }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)  {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)  {
+    .container {
+        width: 80%;       
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)  {
+
+}
+
+/*Super Extra large devices (large laptops and desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+
+}
